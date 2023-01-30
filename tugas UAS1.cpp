@@ -39,7 +39,9 @@ using namespace std;
        for (int b=0; b<3; b++){
         cout << "   " << pilihnasi [b] << endl;
        }
+        cout << "____________________________________________" << endl;
         cout << endl;
+        cout << "____________________________________________" << endl;
       }
       void menu(){
       int p , r , q , har = 12000, har2 = 5000, har3 = 3000;
@@ -111,9 +113,10 @@ using namespace std;
       int main (){
         char pilih;
 
-        system("CLS");
-
       do{
+
+     system ("CLS");
+
         judul();
         pesanan();
         menu();
@@ -123,7 +126,9 @@ using namespace std;
       }
       while (pilih == 'y' || pilih == 'Y');
 
+      system ("CLS");
+
         cout << "==========================================================================================" << endl;
-        cout << "                   TERIMAKASIH TELAH MAMPIR DAN SILAHKAN DATANG KEMBALI"                    << endl;
+        cout << "                   TERIMAKASIH TELAH MAMPIR DAN SILAHKAN DATANG KEMBALI                   " << endl;
         cout << "==========================================================================================" << endl;
       }
